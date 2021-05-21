@@ -1,0 +1,548 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:1:1-48:12
+MERGED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:1:1-48:12
+MERGED from [:app_usage] D:\wha\floaty_chathead\example\build\app_usage\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:usage_stats] D:\wha\floaty_chathead\example\build\usage_stats\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:instabug_flutter] D:\wha\floaty_chathead\example\build\instabug_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-37:12
+MERGED from [:livechatt] D:\wha\floaty_chathead\example\build\livechatt\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [com.instabug.library:instabug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\509f4ddda5c907647fac5894b47eeaee\jetified-instabug-9.1.8.2\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\426996ab714e1bf1c4f45b83166b167b\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:2:1-33:12
+MERGED from [com.instabug.library:instabug-crash:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\cd63f2cb34a0d962a2a9404d7155af02\jetified-instabug-crash-9.1.8.2\AndroidManifest.xml:2:1-17:12
+MERGED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:2:1-42:12
+MERGED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:2:1-27:12
+MERGED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:2:1-24:12
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:2:1-54:12
+MERGED from [com.google.android.material:material:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\e5dd9163d4a1cf9ba3b29824621efb45\material-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.livechat:chat-window-android:v2.1.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\bdfb132198787ce2484ff33e6bb7d635\jetified-chat-window-android-v2.1.2\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\b5c3f45fca1c539a6b6d1f0b817b1346\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\b92fbd260cf80238b126517137ae1b39\jetified-core-ktx-1.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\e3426a849fe3de93253c86b543148be3\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\4265d99190dfc4d3931806a7536ebc02\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\bb7445254901c60d92f924e040050b44\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d410fd591f3e6977dab895b9e49633ca\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2ed1543b288932f3a137608795779df8\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\b56236b88a8bb47938e8290555191622\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\50005622d2d0c2b1fffc771aa02b6501\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\c0f312cd2edb756e364cd5172bc39299\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\afa46938a55bd0fe78364a16f71ea594\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\e071c01b1825d1f955579beadffc06b2\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\a156fab1b40cc11fa5e6c0628b85d482\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\5a81bafb2ee227af4ae8292e94fac2f9\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\5350e8da04d5f2669586352e4656c1cb\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\9a5150c79633eb28b63adf9ac9971ad2\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d4d0252e1e9b37f234b909f603749cd2\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\f5d847d1a980b04a764f4eac63bc0e59\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\57c56718f4c0f2ee627e89cbaccb80b7\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\a4939eef96761c9454ef3a92387b2073\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\90ba6c36b4701faff208f64c6fcfa230\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2bd46fac8b07fed5954e28f01ea91ade\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\adc789405212171e68211b02d52844df\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d3d90ac6c4ddfc7841a529d13fbd0198\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\6a3a44921ef6cd03d6dbdacfed16f0f9\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\334d46ced5bead6be9024964b180ac19\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\066d8a20add4ccefbeba1fe13c6a210e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\8e34f76ce004d1407fb0f19b8af5b66d\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d414b01f8a8969aa85c369bd49e798f3\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\f30bcff2846325e11198689d5bd98e47\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\6daa7266193bf32c5fa63b80695df727\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\20158285dbb8fc11fed8f1bc49fc7645\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\fd9a51b104166eedc14052b904ecb3a0\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\9c84deee85b7bee452a7a66fa735efa0\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\f226e4c6340ea02f225caae1fbc9edc1\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d5b8d312329057876a4b517b9a68f7d7\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d727b9f43982c28498948d06903e65c8\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\5b0de4c5a614e93ce06370a55c84e4bb\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\cd4522bd9318beceb69f6104234c6a98\jetified-rxandroid-2.0.2\AndroidManifest.xml:15:1-21:12
+INJECTED from D:\wha\floaty_chathead\example\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\wha\floaty_chathead\example\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\wha\floaty_chathead\example\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:2:5-33
+		INJECTED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\wha\floaty_chathead\example\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:1:1-48:12
+		INJECTED from D:\wha\floaty_chathead\example\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:1:1-48:12
+		INJECTED from D:\wha\floaty_chathead\example\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:8:5-47:19
+MERGED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-35:19
+MERGED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-35:19
+MERGED from [com.instabug.library:instabug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\509f4ddda5c907647fac5894b47eeaee\jetified-instabug-9.1.8.2\AndroidManifest.xml:9:5-10:19
+MERGED from [com.instabug.library:instabug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\509f4ddda5c907647fac5894b47eeaee\jetified-instabug-9.1.8.2\AndroidManifest.xml:9:5-10:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\426996ab714e1bf1c4f45b83166b167b\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\426996ab714e1bf1c4f45b83166b167b\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:11:5-31:19
+MERGED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:11:5-31:19
+MERGED from [com.instabug.library:instabug-crash:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\cd63f2cb34a0d962a2a9404d7155af02\jetified-instabug-crash-9.1.8.2\AndroidManifest.xml:11:5-15:19
+MERGED from [com.instabug.library:instabug-crash:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\cd63f2cb34a0d962a2a9404d7155af02\jetified-instabug-crash-9.1.8.2\AndroidManifest.xml:11:5-15:19
+MERGED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:13:5-40:19
+MERGED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:13:5-40:19
+MERGED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:11:5-25:19
+MERGED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:11:5-25:19
+MERGED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:11:5-22:19
+MERGED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:11:5-22:19
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:22:5-52:19
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:22:5-52:19
+MERGED from [com.google.android.material:material:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\e5dd9163d4a1cf9ba3b29824621efb45\material-1.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\e5dd9163d4a1cf9ba3b29824621efb45\material-1.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.github.livechat:chat-window-android:v2.1.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\bdfb132198787ce2484ff33e6bb7d635\jetified-chat-window-android-v2.1.2\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.livechat:chat-window-android:v2.1.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\bdfb132198787ce2484ff33e6bb7d635\jetified-chat-window-android-v2.1.2\AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\adc789405212171e68211b02d52844df\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\adc789405212171e68211b02d52844df\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\6daa7266193bf32c5fa63b80695df727\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\6daa7266193bf32c5fa63b80695df727\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\5b0de4c5a614e93ce06370a55c84e4bb\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\5b0de4c5a614e93ce06370a55c84e4bb\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\adc789405212171e68211b02d52844df\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:10:9-31
+	android:hardwareAccelerated
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:11:9-44
+	android:allowBackup
+		ADDED from [com.github.livechat:chat-window-android:v2.1.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\bdfb132198787ce2484ff33e6bb7d635\jetified-chat-window-android-v2.1.2\AndroidManifest.xml:11:18-44
+	android:icon
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:12:9-43
+	android:name
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:9:9-57
+activity#com.example.konnex.MainActivity
+ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:13:9-41:20
+	android:launchMode
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:19:13-55
+	android:configChanges
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:17:13-163
+	android:theme
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:14:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:24:13-27:17
+	android:resource
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:26:15-52
+	android:name
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:25:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:33:13-36:17
+	android:resource
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:35:15-61
+	android:name
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:34:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:39:27-74
+meta-data#flutterEmbedding
+ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:44:9-46:33
+	android:value
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:46:13-30
+	android:name
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml:45:13-44
+uses-sdk
+INJECTED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml
+MERGED from [:app_usage] D:\wha\floaty_chathead\example\build\app_usage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:app_usage] D:\wha\floaty_chathead\example\build\app_usage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:usage_stats] D:\wha\floaty_chathead\example\build\usage_stats\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:usage_stats] D:\wha\floaty_chathead\example\build\usage_stats\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:instabug_flutter] D:\wha\floaty_chathead\example\build\instabug_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:instabug_flutter] D:\wha\floaty_chathead\example\build\instabug_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:livechatt] D:\wha\floaty_chathead\example\build\livechatt\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:livechatt] D:\wha\floaty_chathead\example\build\livechatt\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [com.instabug.library:instabug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\509f4ddda5c907647fac5894b47eeaee\jetified-instabug-9.1.8.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.instabug.library:instabug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\509f4ddda5c907647fac5894b47eeaee\jetified-instabug-9.1.8.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\426996ab714e1bf1c4f45b83166b167b\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\426996ab714e1bf1c4f45b83166b167b\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.instabug.library:instabug-crash:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\cd63f2cb34a0d962a2a9404d7155af02\jetified-instabug-crash-9.1.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.instabug.library:instabug-crash:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\cd63f2cb34a0d962a2a9404d7155af02\jetified-instabug-crash-9.1.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\e5dd9163d4a1cf9ba3b29824621efb45\material-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\e5dd9163d4a1cf9ba3b29824621efb45\material-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.livechat:chat-window-android:v2.1.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\bdfb132198787ce2484ff33e6bb7d635\jetified-chat-window-android-v2.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.livechat:chat-window-android:v2.1.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\bdfb132198787ce2484ff33e6bb7d635\jetified-chat-window-android-v2.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\b5c3f45fca1c539a6b6d1f0b817b1346\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\b5c3f45fca1c539a6b6d1f0b817b1346\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\b92fbd260cf80238b126517137ae1b39\jetified-core-ktx-1.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\b92fbd260cf80238b126517137ae1b39\jetified-core-ktx-1.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\e3426a849fe3de93253c86b543148be3\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\e3426a849fe3de93253c86b543148be3\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\4265d99190dfc4d3931806a7536ebc02\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\4265d99190dfc4d3931806a7536ebc02\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\bb7445254901c60d92f924e040050b44\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\bb7445254901c60d92f924e040050b44\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d410fd591f3e6977dab895b9e49633ca\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d410fd591f3e6977dab895b9e49633ca\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2ed1543b288932f3a137608795779df8\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2ed1543b288932f3a137608795779df8\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\b56236b88a8bb47938e8290555191622\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\b56236b88a8bb47938e8290555191622\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\50005622d2d0c2b1fffc771aa02b6501\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\50005622d2d0c2b1fffc771aa02b6501\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\c0f312cd2edb756e364cd5172bc39299\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\c0f312cd2edb756e364cd5172bc39299\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\afa46938a55bd0fe78364a16f71ea594\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\afa46938a55bd0fe78364a16f71ea594\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\e071c01b1825d1f955579beadffc06b2\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\e071c01b1825d1f955579beadffc06b2\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\a156fab1b40cc11fa5e6c0628b85d482\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\a156fab1b40cc11fa5e6c0628b85d482\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\5a81bafb2ee227af4ae8292e94fac2f9\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\5a81bafb2ee227af4ae8292e94fac2f9\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\5350e8da04d5f2669586352e4656c1cb\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\5350e8da04d5f2669586352e4656c1cb\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\9a5150c79633eb28b63adf9ac9971ad2\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\9a5150c79633eb28b63adf9ac9971ad2\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d4d0252e1e9b37f234b909f603749cd2\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d4d0252e1e9b37f234b909f603749cd2\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\f5d847d1a980b04a764f4eac63bc0e59\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\f5d847d1a980b04a764f4eac63bc0e59\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\57c56718f4c0f2ee627e89cbaccb80b7\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\57c56718f4c0f2ee627e89cbaccb80b7\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\a4939eef96761c9454ef3a92387b2073\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\a4939eef96761c9454ef3a92387b2073\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\90ba6c36b4701faff208f64c6fcfa230\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\90ba6c36b4701faff208f64c6fcfa230\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2bd46fac8b07fed5954e28f01ea91ade\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2bd46fac8b07fed5954e28f01ea91ade\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\adc789405212171e68211b02d52844df\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\adc789405212171e68211b02d52844df\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d3d90ac6c4ddfc7841a529d13fbd0198\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d3d90ac6c4ddfc7841a529d13fbd0198\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\6a3a44921ef6cd03d6dbdacfed16f0f9\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\6a3a44921ef6cd03d6dbdacfed16f0f9\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\334d46ced5bead6be9024964b180ac19\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\334d46ced5bead6be9024964b180ac19\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\066d8a20add4ccefbeba1fe13c6a210e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\066d8a20add4ccefbeba1fe13c6a210e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\8e34f76ce004d1407fb0f19b8af5b66d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\8e34f76ce004d1407fb0f19b8af5b66d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d414b01f8a8969aa85c369bd49e798f3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d414b01f8a8969aa85c369bd49e798f3\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\f30bcff2846325e11198689d5bd98e47\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\f30bcff2846325e11198689d5bd98e47\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\6daa7266193bf32c5fa63b80695df727\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\6daa7266193bf32c5fa63b80695df727\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\20158285dbb8fc11fed8f1bc49fc7645\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\20158285dbb8fc11fed8f1bc49fc7645\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\fd9a51b104166eedc14052b904ecb3a0\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\fd9a51b104166eedc14052b904ecb3a0\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\9c84deee85b7bee452a7a66fa735efa0\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\9c84deee85b7bee452a7a66fa735efa0\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\f226e4c6340ea02f225caae1fbc9edc1\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\f226e4c6340ea02f225caae1fbc9edc1\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d5b8d312329057876a4b517b9a68f7d7\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d5b8d312329057876a4b517b9a68f7d7\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d727b9f43982c28498948d06903e65c8\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\d727b9f43982c28498948d06903e65c8\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\5b0de4c5a614e93ce06370a55c84e4bb\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\5b0de4c5a614e93ce06370a55c84e4bb\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\cd4522bd9318beceb69f6104234c6a98\jetified-rxandroid-2.0.2\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\cd4522bd9318beceb69f6104234c6a98\jetified-rxandroid-2.0.2\AndroidManifest.xml:19:5-43
+INJECTED from D:\wha\floaty_chathead\example\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\wha\floaty_chathead\example\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\wha\floaty_chathead\example\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\wha\floaty_chathead\example\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\wha\floaty_chathead\example\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\wha\floaty_chathead\example\android\app\src\debug\AndroidManifest.xml:6:5-66
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:18:5-67
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from D:\wha\floaty_chathead\example\android\app\src\debug\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-77
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:20:5-77
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:20:5-77
+	android:name
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-68
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:19:5-68
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-75
+activity#ni.devotion.floaty_head.MainActivity
+ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-23:35
+	android:label
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-40
+	android:resizeableActivity
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-46
+	android:showOnLockScreen
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-44
+	tools:targetApi
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-32
+	android:documentLaunchMode
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-48
+	android:theme
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-56
+	android:name
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-64
+	android:allowEmbedded
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-41
+service#ni.devotion.floaty_head.services.FloatyIconService
+ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-29:74
+	android:enabled
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-35
+	android:exported
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-36
+	android:permission
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-71
+	android:name
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-78
+service#ni.devotion.floaty_head.services.FloatyContentJobService
+ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-34:72
+	android:enabled
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-37
+	android:permission
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-69
+	android:name
+		ADDED from [:floaty_head] D:\wha\floaty_chathead\example\build\floaty_head\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-84
+activity#com.instabug.survey.ui.SurveyActivity
+ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:12:9-17:58
+	android:launchMode
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:15:13-44
+	android:windowSoftInputMode
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:17:13-55
+	android:configChanges
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:14:13-59
+	android:theme
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:13:13-65
+activity#com.instabug.survey.announcements.ui.activity.AnnouncementActivity
+ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:18:9-23:58
+	android:launchMode
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:21:13-43
+	android:windowSoftInputMode
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:23:13-55
+	android:configChanges
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:20:13-59
+	android:theme
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:22:13-63
+	android:name
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:19:13-94
+service#com.instabug.survey.network.service.InstabugSurveysSubmitterService
+ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:25:9-27:72
+	android:permission
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:27:13-69
+	android:name
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:26:13-95
+service#com.instabug.survey.announcements.network.InstabugAnnouncementSubmitterService
+ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:28:9-30:72
+	android:permission
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from [com.instabug.library:instabug-survey:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\2654147a6c92e5cdf646becc14489b03\jetified-instabug-survey-9.1.8.2\AndroidManifest.xml:29:13-106
+service#com.instabug.crash.network.InstabugCrashesUploaderService
+ADDED from [com.instabug.library:instabug-crash:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\cd63f2cb34a0d962a2a9404d7155af02\jetified-instabug-crash-9.1.8.2\AndroidManifest.xml:12:9-14:72
+	android:permission
+		ADDED from [com.instabug.library:instabug-crash:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\cd63f2cb34a0d962a2a9404d7155af02\jetified-instabug-crash-9.1.8.2\AndroidManifest.xml:14:13-69
+	android:name
+		ADDED from [com.instabug.library:instabug-crash:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\cd63f2cb34a0d962a2a9404d7155af02\jetified-instabug-crash-9.1.8.2\AndroidManifest.xml:13:13-85
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:11:5-80
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:14:5-80
+MERGED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:11:22-77
+activity#com.instabug.bug.view.reporting.ReportingContainerActivity
+ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:14:9-32:20
+	android:launchMode
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:17:13-44
+	android:windowSoftInputMode
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:19:13-55
+	android:configChanges
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:16:13-74
+	android:theme
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:18:13-52
+	android:name
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:15:13-86
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:instabug-disclaimer.com+data:host:instabug-disclaimer.com+data:scheme:instabug-bug+data:scheme:repro-steps-disclaimer
+ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:20:13-31:29
+data
+ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:21:17-23:53
+	android:host
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:22:21-59
+	android:scheme
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:23:21-50
+category#android.intent.category.DEFAULT
+ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:28:27-73
+action#android.intent.action.VIEW
+ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:30:25-66
+service#com.instabug.bug.network.InstabugBugsUploaderService
+ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:34:9-36:72
+	android:permission
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:36:13-69
+	android:name
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:35:13-80
+service#com.instabug.bug.view.actionList.service.ReportCategoriesService
+ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:37:9-39:72
+	android:permission
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:39:13-69
+	android:name
+		ADDED from [com.instabug.library:instabug-bug:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\7638f0d2340c9160bf4e49e801fc9320\jetified-instabug-bug-9.1.8.2\AndroidManifest.xml:38:13-92
+activity#com.instabug.chat.ui.ChatActivity
+ADDED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:12:9-17:58
+	android:launchMode
+		ADDED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:15:13-43
+	android:windowSoftInputMode
+		ADDED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:17:13-55
+	android:configChanges
+		ADDED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:14:13-59
+	android:theme
+		ADDED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:16:13-52
+	android:name
+		ADDED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:13:13-61
+service#com.instabug.chat.network.InstabugMessageUploaderService
+ADDED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:19:9-21:72
+	android:permission
+		ADDED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:21:13-69
+	android:name
+		ADDED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:20:13-84
+service#com.instabug.chat.network.InstabugPushNotificationTokenService
+ADDED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:22:9-24:72
+	android:permission
+		ADDED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:24:13-69
+	android:name
+		ADDED from [com.instabug.library:instabug-chat:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\3206a38644866e88f69191841f9165b1\jetified-instabug-chat-9.1.8.2\AndroidManifest.xml:23:13-90
+activity#com.instabug.featuresrequest.ui.FeaturesRequestActivity
+ADDED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:12:9-17:58
+	android:launchMode
+		ADDED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:15:13-43
+	android:windowSoftInputMode
+		ADDED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:17:13-55
+	android:configChanges
+		ADDED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:14:13-59
+	android:theme
+		ADDED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:16:13-51
+	android:name
+		ADDED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:13:13-83
+service#com.instabug.featuresrequest.network.service.FeaturesRequestVoteService
+ADDED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:19:9-21:72
+	android:permission
+		ADDED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:21:13-69
+	android:name
+		ADDED from [com.instabug.library:instabug-features-request:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\480abd98dc012584ab92d99568508c05\jetified-instabug-features-request-9.1.8.2\AndroidManifest.xml:20:13-99
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:11:5-13:38
+	android:maxSdkVersion
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:13:9-35
+	android:name
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:12:9-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:16:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:17:22-77
+service#com.instabug.library.analytics.network.InstabugAnalyticsUploaderService
+ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:23:9-25:72
+	android:permission
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:25:13-69
+	android:name
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:24:13-99
+activity#com.instabug.library.internal.video.RequestPermissionActivity
+ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:27:9-30:66
+	android:configChanges
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:29:13-59
+	android:theme
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:30:13-63
+	android:name
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:28:13-89
+activity#com.instabug.library.invocation.invocationdialog.InstabugDialogActivity
+ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:31:9-34:66
+	android:launchMode
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:33:13-44
+	android:theme
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:34:13-63
+	android:name
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:32:13-99
+activity#com.instabug.library.ui.onboarding.OnboardingActivity
+ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:35:9-38:66
+	android:launchMode
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:37:13-44
+	android:theme
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:38:13-63
+	android:name
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:36:13-81
+service#com.instabug.library.internal.video.ScreenRecordingService
+ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:40:9-45:35
+	android:enabled
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:45:13-32
+	android:foregroundServiceType
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:44:13-60
+	android:name
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:41:13-86
+service#com.instabug.library.screenshot.ScreenshotCaptureService
+ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:46:9-51:35
+	android:enabled
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:48:13-35
+	android:exported
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:49:13-37
+	tools:targetApi
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:51:13-32
+	android:foregroundServiceType
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:50:13-60
+	android:name
+		ADDED from [com.instabug.library:instabug-core:9.1.8.2] C:\Users\Prashanth Reddy\.gradle\caches\transforms-2\files-2.1\00b363910d4ad8436effb851642b849e\jetified-instabug-core-9.1.8.2\AndroidManifest.xml:47:13-84

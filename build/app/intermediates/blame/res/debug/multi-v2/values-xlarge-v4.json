@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\wha\\floaty_chathead\\example\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Prashanth Reddy\\.gradle\\caches\\transforms-2\\files-2.1\\7638f0d2340c9160bf4e49e801fc9320\\jetified-instabug-bug-9.1.8.2\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "37",
+                        "endOffsets": "88"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Prashanth Reddy\\.gradle\\caches\\transforms-2\\files-2.1\\b5c3f45fca1c539a6b6d1f0b817b1346\\appcompat-1.2.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,126,197,267,337,405",
+                        "endColumns": "70,70,69,69,67,67",
+                        "endOffsets": "121,192,262,332,400,468"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "93,164,235,305,375,443",
+                        "endColumns": "70,70,69,69,67,67",
+                        "endOffsets": "159,230,300,370,438,506"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="ni.devotion.floaty_head" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="16"
+7-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="30" />
+8-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+10-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:5:5-77
+10-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:5:22-74
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:6:5-68
+11-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:6:22-65
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:7:5-78
+12-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:7:22-75
+13
+14    <application>
+14-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:9:5-29:19
+15        <activity
+15-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:10:9-18:35
+16            android:name="ni.devotion.floaty_head.MainActivity"
+16-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:11:13-41
+17            android:allowEmbedded="true"
+17-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:12:13-41
+18            android:documentLaunchMode="always"
+18-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:13:13-48
+19            android:label="floaty_head"
+19-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:14:13-40
+20            android:resizeableActivity="true"
+20-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:15:13-46
+21            android:showOnLockScreen="true"
+21-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:16:13-44
+22            android:theme="@style/AppTheme.NoActionBar"
+22-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:17:13-56
+23            tools:targetApi="n" />
+23-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:18:13-32
+24
+25        <service
+25-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:19:9-23:73
+26            android:name="ni.devotion.floaty_head.services.FloatyIconService"
+26-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:20:13-55
+27            android:enabled="true"
+27-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:21:13-35
+28            android:exported="true"
+28-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:22:13-36
+29            android:permission="android.permission.FOREGROUND_SERVICE" />
+29-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:23:13-71
+30        <service
+30-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:24:9-28:71
+31            android:name="ni.devotion.floaty_head.services.FloatyContentJobService"
+31-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:25:13-61
+32            android:enabled="true"
+32-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:26:13-35
+33            android:exported="false"
+33-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:27:13-37
+34            android:permission="android.permission.BIND_JOB_SERVICE" />
+34-->D:\wha\floaty_chathead\android\src\main\AndroidManifest.xml:28:13-69
+35    </application>
+36
+37</manifest>

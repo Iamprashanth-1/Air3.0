@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\wha\\floaty_chathead\\example\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Prashanth Reddy\\.gradle\\caches\\transforms-2\\files-2.1\\2654147a6c92e5cdf646becc14489b03\\jetified-instabug-survey-9.1.8.2\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "913"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "117",
+                        "endLines": "15",
+                        "endColumns": "12",
+                        "endOffsets": "975"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Prashanth Reddy\\.gradle\\caches\\transforms-2\\files-2.1\\7638f0d2340c9160bf4e49e801fc9320\\jetified-instabug-bug-9.1.8.2\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "61",
+                        "endOffsets": "112"
+                    }
+                }
+            ]
+        }
+    ]
+}

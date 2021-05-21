@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\wha\\floaty_chathead\\example\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Prashanth Reddy\\.gradle\\caches\\transforms-2\\files-2.1\\7638f0d2340c9160bf4e49e801fc9320\\jetified-instabug-bug-9.1.8.2\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,322",
+                        "endLines": "5,9",
+                        "endColumns": "12,12",
+                        "endOffsets": "317,597"
+                    }
+                }
+            ]
+        }
+    ]
+}
