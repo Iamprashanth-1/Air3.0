@@ -6,6 +6,9 @@ import 'package:instabug_flutter/BugReporting.dart';
 import 'package:instabug_flutter/Surveys.dart';
 import 'package:instabug_flutter/FeatureRequests.dart';
 import 'package:instabug_flutter/CrashReporting.dart';
+import 'user.dart';
+import 'feature.dart';
+import 'feedback.dart';
 
 class Report extends StatelessWidget {
   // This widget is the root of your application.
@@ -154,7 +157,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 margin: const EdgeInsets.only(left: 20.0, right: 20.0),
                 // height: double.infinity,
                 child: RaisedButton(
-                    onPressed: sendBugReport,
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Bug()),
+                      );
+                    },
                     textColor: Colors.white,
                     child: Text('Send Bug Report'),
                     color: Color(0xFF083386)),
@@ -164,7 +172,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 margin: const EdgeInsets.only(left: 20.0, right: 20.0),
                 // height: double.infinity,
                 child: RaisedButton(
-                    onPressed: showFeatureRequests,
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Feature()),
+                      );
+                    },
                     textColor: Colors.white,
                     child: Text('Show Feature Requests'),
                     color: Color(0xFF083386)),
@@ -184,7 +197,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 margin: const EdgeInsets.only(left: 20.0, right: 20.0),
                 // height: double.infinity,
                 child: RaisedButton(
-                    onPressed: sendFeedback,
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Feedbackss()),
+                      );
+                    },
                     textColor: Colors.white,
                     child: Text('Send Feedback'),
                     color: Color(0xFF083386)),
