@@ -1,6 +1,6 @@
 # Konnex
 
-Demonstrates how to use the floaty_head plugin.
+Demonstrates how to use the Konnex.
 
 ## Getting Started
 
